@@ -18,6 +18,8 @@ https://wiki.xxiivv.com/site/varvara.html
 
 https://github.com/hundredrabbits/awesome-uxn
 
+https://metasyn.github.io/learn-uxn/#
+
 
 ## anatomy of uxn, varvara
 
