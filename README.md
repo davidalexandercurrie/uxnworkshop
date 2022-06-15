@@ -10,7 +10,7 @@
 
 https://compudanzas.net/introduction_to_uxn_programming_book.html
 
-https://compudanzas.net/uxn_tutorial.html
+https://www.youtube.com/watch?v=LrNuq_JgaOA - babycastles intro to uxn
 
 https://wiki.xxiivv.com/site/uxntal_reference.html
 
@@ -50,6 +50,9 @@ mouse input
 make a sound
 run on nintendo
 https://github.com/asiekierka/uxnds
+
+bit_beat
+https://davidalexandercurrie.com/bit-beat/
 
 questions
 
