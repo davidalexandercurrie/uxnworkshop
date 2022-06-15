@@ -4,6 +4,8 @@
 - what is uxn
 - permacomputing
 - why did I use uxn, bit_beat
+- 100r
+- uxn book
 
 
 https://compudanzas.net/introduction_to_uxn_programming_book.html
@@ -30,15 +32,19 @@ https://github.com/hundredrabbits/awesome-uxn
 ## basics of uxntal
 
 post-fix notation
+shorts
+https://wiki.xxiivv.com/site/uxntal.html
 
-examples:
+### examples:
 
 write hello to the console
 write a digit to the console
 device labels
 
+set colors
 draw a pixel to the screen
 draw a sprite
+mouse input
 make a sound
 run on nintendo
 

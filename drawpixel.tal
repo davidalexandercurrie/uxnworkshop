@@ -1,0 +1,30 @@
+|00 @System     [ &vector $2 &wst      $1 &rst    $1 &pad   $4 &r      $2 &g      $2 &b    $2 &debug  $1 &halt $1 ]
+|20 @Screen     [ &vector $2 &width    $2 &height $2 &auto  $1 &pad    $1 &x      $2 &y    $2 &addr   $2 &pixel $1 &sprite $1 ]
+
+
+( macros )
+	%DRAW-PIXEL { #41 .Screen/pixel DEO } ( -- )
+	%INC-X { .Screen/x DEI2 INC2 .Screen/x DEO2 } ( -- )
+
+|0100
+
+( set system colors )
+#fac3 #08 DEO2
+#1678 #0a DEO2
+#8765 #0c DEO2
+
+#0008 .Screen/x DEO2
+#0008 .Screen/y DEO2
+#01 .Screen/pixel DEO
+
+( 
+  pixel byte	layer	color
+00	background	0
+01	background	1
+02	background	2
+03	background	3
+40	foreground	0
+41	foreground	1
+42	foreground	2
+43	foreground	3
+ )

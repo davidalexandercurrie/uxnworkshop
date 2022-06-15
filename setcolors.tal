@@ -1,0 +1,11 @@
+( hello-screen.tal )
+	
+	( devices )
+	|00 @System  [ &vector $2 &pad $6   &r $2 &g $2 &b $2 ]
+	
+	( main program )
+	|0100
+	      ( set system colors )
+	      #f000 #08 DEO2
+	      #0000 #0a DEO2
+	      #0000 #0c DEO2
